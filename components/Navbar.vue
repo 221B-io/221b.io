@@ -9,6 +9,6 @@
             a(href="#services") Services
           li
             a(href="#contact") Contact
-          li
-            a(href="#team") Our Team
+          //- li
+          //-   a(href="#team") Our Team
 </template>

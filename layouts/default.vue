@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Navbar from '~/components/Navbar';
+import Navbar from "~/components/Navbar";
 export default {
   components: {
     Navbar
@@ -15,5 +15,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import '~assets/sass/main';
+@import "~assets/sass/main";
 </style>

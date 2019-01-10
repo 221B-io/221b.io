@@ -1,5 +1,5 @@
 <template lang="pug">
-  .container(style="background:#FFF;padding:0px;border-radius:15px;max-width:1000px;")
+  .container(style="background:#FFF;padding:0px;border-radius:15px;max-width:1000px;margin-bottom:30px;")
     //- header
     header
       h1(style="font-size:3em;").text-center.py-5
@@ -27,8 +27,8 @@
       .content
         .inner
           h2 Our Services
-          <p class="lead">We offer a wide range of services, fitting with the various expertise of our employees. From training, to strategic advise, to development work, we've got you covered.</p>
-      ul.grid-icons
+          <p class="lead">We offer a wide range of services, fitting with the various expertise of our employees. From training, to strategic advice, to development work, we've got you covered.</p>
+      ul.grid-icons(style="border-width:0px")
         li
           .inner
             span.icon.fa-cog.major
@@ -47,58 +47,58 @@
             h3 Cleanup
 
     //- Lives saved
-    a(name="lives")
-    section#two.wrapper.style1.spotlight.alt
-      .content(style="width:70%")
-        .inner
-          h2 How many lives can we save?
-          <p class="lead">We ask ourselves this question constantly. When there's room for a solution to a serious problem, a solution that could help save or improve lives, you'll find us there.</p>
+    //- a(name="lives")
+    //- section#two.wrapper.style1.spotlight.alt
+    //-   .content(style="width:70%")
+    //-     .inner
+    //-       h2 How many lives can we save?
+    //-       <p class="lead">We ask ourselves this question constantly. When there's room for a solution to a serious problem, a solution that could help save or improve lives, you'll find us there.</p>
 
-    //- About the team
-    a(name="team")
-    section#five.wrapper.special.team
-      h2 Our Team
-      p Praesent dapibus, neque id cursus faucibus, tortor neque ege tas augue, eu vulputate magna eros eu erat. Aliquam erat et volutpat. Nam dui mi, tincidunt quis, accumsan porttitor tempus lorem ipsum dolor sit amet consequat.
-      ul.faces
-        li
-          span.image
-            img(src="~static/images/staff/jeff.jpg" alt="Headshot of Jeff Spies")
-          h3.mb-0 Jeff Spies
-          h5 Principal
-          p "Aliquam erat et volutpat. Nam dui mi, tincidunt quis, porttitor magna etiam lorem tempus."
-          a(href="https://twitter.com/jeffspies").icon
-            i.fa.fa-twitter.fa-2x.text-gray
-          a(href="https://github.com/jeffspies").icon
-            i.fa.fa-github.fa-2x.text-gray
-        li
-          span.image
-            img(src="~static/images/staff/ryan.jpg" alt="Headshot of Ryan Mason")
-          h3.mb-0 Ryan Mason
-          h5 Developer
-          p "Aliquam erat et volutpat. Nam dui mi, tincidunt quis, porttitor magna etiam lorem tempus."
-          a(href="https://twitter.com/jeffspies").icon
-            i.fa.fa-twitter.fa-2x.text-gray
-          a(href="https://github.com/jeffspies").icon
-            i.fa.fa-github.fa-2x.text-gray
-        li
-          span.image
-            img(src="~static/images/staff/cam.jpg" alt="Headshot of Cameron Blandford")
-          h3.mb-0 Cameron Blandford
-          h5 Developer
-          p Can't choose a favorite color. Loves seeing theory in practice.
-          a(href="https://twitter.com/camblandford").icon
-            i.fa.fa-twitter.fa-2x.text-gray
-          a(href="https://github.com/cameronblandford").icon
-            i.fa.fa-github.fa-2x.text-gray
+    //- //- About the team
+    //- a(name="team")
+    //- section#five.wrapper.special.team
+    //-   h2 Our Team
+    //-   p Praesent dapibus, neque id cursus faucibus, tortor neque ege tas augue, eu vulputate magna eros eu erat. Aliquam erat et volutpat. Nam dui mi, tincidunt quis, accumsan porttitor tempus lorem ipsum dolor sit amet consequat.
+    //-   ul.faces
+    //-     li
+    //-       span.image
+    //-         img(src="~static/images/staff/jeff.jpg" alt="Headshot of Jeff Spies")
+    //-       h3.mb-0 Jeff Spies
+    //-       h5 Principal
+    //-       p "Aliquam erat et volutpat. Nam dui mi, tincidunt quis, porttitor magna etiam lorem tempus."
+    //-       a(href="https://twitter.com/jeffspies").icon
+    //-         i.fa.fa-twitter.fa-2x.text-gray
+    //-       a(href="https://github.com/jeffspies").icon
+    //-         i.fa.fa-github.fa-2x.text-gray
+    //-     li
+    //-       span.image
+    //-         img(src="~static/images/staff/ryan.jpg" alt="Headshot of Ryan Mason")
+    //-       h3.mb-0 Ryan Mason
+    //-       h5 Developer
+    //-       p "Aliquam erat et volutpat. Nam dui mi, tincidunt quis, porttitor magna etiam lorem tempus."
+    //-       a(href="https://twitter.com/jeffspies").icon
+    //-         i.fa.fa-twitter.fa-2x.text-gray
+    //-       a(href="https://github.com/jeffspies").icon
+    //-         i.fa.fa-github.fa-2x.text-gray
+    //-     li
+    //-       span.image
+    //-         img(src="~static/images/staff/cam.jpg" alt="Headshot of Cameron Blandford")
+    //-       h3.mb-0 Cameron Blandford
+    //-       h5 Developer
+    //-       p Can't choose a favorite color. Loves seeing theory in practice.
+    //-       a(href="https://twitter.com/camblandford").icon
+    //-         i.fa.fa-twitter.fa-2x.text-gray
+    //-       a(href="https://github.com/cameronblandford").icon
+    //-         i.fa.fa-github.fa-2x.text-gray
 
-    //- footer with contact info
+    //- //- footer with contact info
     a(name="contact")
-    <Footer/>
+    Footer
 </template>
 
 <script>
-import Footer from '~/components/Footer.vue';
-import WordSwapper from '~/components/WordSwapper.vue';
+import Footer from "~/components/Footer.vue";
+import WordSwapper from "~/components/WordSwapper.vue";
 
 export default {
   components: {
@@ -111,5 +111,11 @@ export default {
 <style>
 .team img {
   width: 200px;
+}
+ul.grid-icons li {
+  border-width: 0px;
+}
+.wrapper.spotlight > .grid-icons {
+  border-width: 0px !important;
 }
 </style>
