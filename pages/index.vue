@@ -82,7 +82,7 @@
             i.fa.fa-github.fa-2x.text-gray
         li
           span.image
-            img(src="~static/images/staff/cam.jpeg" alt="Headshot of Cameron Blandford")
+            img(src="~static/images/staff/cam.jpg" alt="Headshot of Cameron Blandford")
           h3.mb-0 Cameron Blandford
           h5 Developer
           //- p Can't choose a favorite color. Loves seeing theory in practice.
