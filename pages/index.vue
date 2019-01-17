@@ -54,42 +54,42 @@
     //-       h2 How many lives can we save?
     //-       <p class="lead">We ask ourselves this question constantly. When there's room for a solution to a serious problem, a solution that could help save or improve lives, you'll find us there.</p>
 
-    //- //- About the team
-    //- a(name="team")
-    //- section#five.wrapper.special.team
-    //-   h2 Our Team
-    //-   p Praesent dapibus, neque id cursus faucibus, tortor neque ege tas augue, eu vulputate magna eros eu erat. Aliquam erat et volutpat. Nam dui mi, tincidunt quis, accumsan porttitor tempus lorem ipsum dolor sit amet consequat.
-    //-   ul.faces
-    //-     li
-    //-       span.image
-    //-         img(src="~static/images/staff/jeff.jpg" alt="Headshot of Jeff Spies")
-    //-       h3.mb-0 Jeff Spies
-    //-       h5 Principal
-    //-       p "Aliquam erat et volutpat. Nam dui mi, tincidunt quis, porttitor magna etiam lorem tempus."
-    //-       a(href="https://twitter.com/jeffspies").icon
-    //-         i.fa.fa-twitter.fa-2x.text-gray
-    //-       a(href="https://github.com/jeffspies").icon
-    //-         i.fa.fa-github.fa-2x.text-gray
-    //-     li
-    //-       span.image
-    //-         img(src="~static/images/staff/ryan.jpg" alt="Headshot of Ryan Mason")
-    //-       h3.mb-0 Ryan Mason
-    //-       h5 Developer
-    //-       p "Aliquam erat et volutpat. Nam dui mi, tincidunt quis, porttitor magna etiam lorem tempus."
-    //-       a(href="https://twitter.com/jeffspies").icon
-    //-         i.fa.fa-twitter.fa-2x.text-gray
-    //-       a(href="https://github.com/jeffspies").icon
-    //-         i.fa.fa-github.fa-2x.text-gray
-    //-     li
-    //-       span.image
-    //-         img(src="~static/images/staff/cam.jpg" alt="Headshot of Cameron Blandford")
-    //-       h3.mb-0 Cameron Blandford
-    //-       h5 Developer
-    //-       p Can't choose a favorite color. Loves seeing theory in practice.
-    //-       a(href="https://twitter.com/camblandford").icon
-    //-         i.fa.fa-twitter.fa-2x.text-gray
-    //-       a(href="https://github.com/cameronblandford").icon
-    //-         i.fa.fa-github.fa-2x.text-gray
+    //- About the team
+    a(name="team")
+    section#five.wrapper.special.team
+      h2 Our Team
+      //- p Praesent dapibus, neque id cursus faucibus, tortor neque ege tas augue, eu vulputate magna eros eu erat. Aliquam erat et volutpat. Nam dui mi, tincidunt quis, accumsan porttitor tempus lorem ipsum dolor sit amet consequat.
+      ul.faces
+        li
+          span.image
+            img(src="~static/images/staff/jeff.jpg" alt="Headshot of Jeff Spies")
+          h3.mb-0 Jeff Spies
+          h5 Principal
+          //- p "Aliquam erat et volutpat. Nam dui mi, tincidunt quis, porttitor magna etiam lorem tempus."
+          a(href="https://twitter.com/jeffspies").icon
+            i.fa.fa-twitter.fa-2x.text-gray
+          a(href="https://github.com/jeffspies").icon
+            i.fa.fa-github.fa-2x.text-gray
+        li
+          span.image
+            img(src="~static/images/staff/ryan.jpg" alt="Headshot of Ryan Mason")
+          h3.mb-0 Ryan Mason
+          h5 Developer
+          //- p "Aliquam erat et volutpat. Nam dui mi, tincidunt quis, porttitor magna etiam lorem tempus."
+          a(href="https://twitter.com/jeffspies").icon
+            i.fa.fa-twitter.fa-2x.text-gray
+          a(href="https://github.com/jeffspies").icon
+            i.fa.fa-github.fa-2x.text-gray
+        li
+          span.image
+            img(src="~static/images/staff/cam.jpeg" alt="Headshot of Cameron Blandford")
+          h3.mb-0 Cameron Blandford
+          h5 Developer
+          //- p Can't choose a favorite color. Loves seeing theory in practice.
+          a(href="https://twitter.com/camblandford").icon
+            i.fa.fa-twitter.fa-2x.text-gray
+          a(href="https://github.com/cameronblandford").icon
+            i.fa.fa-github.fa-2x.text-gray
 
     //- //- footer with contact info
     a(name="contact")
