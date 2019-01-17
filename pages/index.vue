@@ -72,13 +72,13 @@
             i.fa.fa-github.fa-2x.text-gray
         li
           span.image
-            img(src="~static/images/staff/ryan.jpg" alt="Headshot of Ryan Mason")
+            img(src="~static/images/staff/ryan.jpeg" alt="Headshot of Ryan Mason")
           h3.mb-0 Ryan Mason
           h5 Developer
           //- p "Aliquam erat et volutpat. Nam dui mi, tincidunt quis, porttitor magna etiam lorem tempus."
-          a(href="https://twitter.com/jeffspies").icon
+          a(href="https://twitter.com/ryanmasonjar").icon
             i.fa.fa-twitter.fa-2x.text-gray
-          a(href="https://github.com/jeffspies").icon
+          a(href="https://github.com/rytiggy").icon
             i.fa.fa-github.fa-2x.text-gray
         li
           span.image
